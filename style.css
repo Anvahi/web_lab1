@@ -11,6 +11,10 @@ body {
   background-position: top center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .container {
   max-width: 928px;
 
@@ -133,10 +137,6 @@ body {
   margin-left: 20px;
   border-right: 1px solid #f8f4e1;
 }
-
-/* .logo {
-  background-image: url("img/logo_.svg");
-} */
 
 figure {
   border: 1px solid #1d588fd2;
